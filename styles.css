@@ -118,6 +118,8 @@ h1 span { color: #81888d; font-weight: 520; }
 .download-section p { max-width: 650px; color: var(--muted); font-size: 1.05rem; }
 .download-section .button { margin: 20px 0 10px; }
 .download-section small { color: #858b8f; }
+.offline-download { margin-top: 16px; color: var(--muted); font-size: .86rem; text-decoration: underline; text-underline-offset: 4px; }
+.offline-download:hover { color: var(--ink); }
 .download-steps { width: 100%; margin: 28px 0 6px; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; text-align: left; }
 .download-steps li { min-height: 108px; display: grid; grid-template-columns: 30px 1fr; align-content: start; gap: 12px; padding: 17px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--muted); font-size: .88rem; line-height: 1.45; box-shadow: 0 10px 24px rgba(16,24,32,.05); }
 .download-steps b { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: var(--ink); color: var(--paper); font-size: .76rem; }
@@ -161,4 +163,3 @@ footer p:last-child { margin-left: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-
