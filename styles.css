@@ -118,6 +118,9 @@ h1 span { color: #81888d; font-weight: 520; }
 .download-section p { max-width: 650px; color: var(--muted); font-size: 1.05rem; }
 .download-section .button { margin: 20px 0 10px; }
 .download-section small { color: #858b8f; }
+.download-steps { width: 100%; margin: 24px 0 4px; display: grid; gap: 8px; text-align: left; }
+.download-steps span { display: flex; align-items: center; gap: 12px; padding: 13px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--muted); font-size: .92rem; }
+.download-steps b { flex: 0 0 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: var(--ink); color: var(--paper); font-size: .78rem; }
 footer { min-height: 120px; padding: 28px max(20px, calc((100vw - 1180px) / 2)); border-top: 1px solid var(--line); display: flex; align-items: center; gap: 30px; color: #777e83; font-size: .85rem; }
 footer p { margin: 0; }
 footer p:last-child { margin-left: auto; }
